@@ -46,7 +46,7 @@ export function AppSidebar() {
       <SidebarHeader className="border-b">
         <div className="flex items-center gap-2 px-4 py-2">
           <GraduationCap className="w-6 h-6 text-primary" />
-          {state !== "collapsed" && <span className="font-bold text-lg">CampusPal</span>}
+          {state !== "collapsed" && <span className="font-bold text-lg">HawkPay</span>}
         </div>
       </SidebarHeader>
 

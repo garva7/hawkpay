@@ -23,7 +23,7 @@ export function WelcomeModal({ isOpen, onClose }: WelcomeModalProps) {
   const steps = [
     {
       icon: Sparkles,
-      title: 'Welcome to CampusPal!',
+      title: 'Welcome to HawkPay!',
       description: 'Your secure digital wallet for all campus payments. Let\'s get you started with a quick tour.',
       color: 'text-primary'
     },

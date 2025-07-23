@@ -136,12 +136,7 @@ export default function Support() {
               <Phone className="w-6 h-6 text-primary" />
             </div>
             <h3 className="font-semibold mb-2">Phone Support</h3>
-            <p className="text-sm text-muted-foreground mb-4">
-              Call us during business hours
-            </p>
-            <Button size="sm" variant="outline" className="w-full">
-              (555) 123-4567
-            </Button>
+            
           </CardContent>
         </Card>
 
@@ -154,9 +149,6 @@ export default function Support() {
             <p className="text-sm text-muted-foreground mb-4">
               Get help via email within 24 hours
             </p>
-            <Button size="sm" variant="outline" className="w-full">
-              support@campuspal.com
-            </Button>
           </CardContent>
         </Card>
       </motion.div>

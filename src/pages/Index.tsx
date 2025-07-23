@@ -38,7 +38,7 @@ const Index = () => {
       <motion.section 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        className="relative overflow-hidden bg-gradient-to-br from-primary-light to-primary"
+        className="relative overflow-hidden bg-blue-500/60"
       >
         <div className="absolute inset-0">
           <img 
@@ -56,7 +56,7 @@ const Index = () => {
               transition={{ delay: 0.2 }}
             >
               <h1 className="text-3xl md:text-5xl font-bold mb-6">
-                CamPay 
+                HawkPay 
                 <h2 className="block text-accent-foreground">Campus Payments made Simple & Secure</h2>
               </h1>
               
@@ -104,7 +104,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Why Students Choose CampusPal
+              Why Students Choose HawkPay
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Built with student life in mind - secure, intuitive, and designed to make 
@@ -228,7 +228,7 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
             <GraduationCap className="w-6 h-6 text-primary" />
-            <span className="text-xl font-bold">CampusPal</span>
+            <span className="text-xl font-bold">HawkPay</span>
           </div>
           <p className="text-muted-foreground">
             Secure campus payments for the digital generation.
