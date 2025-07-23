@@ -55,10 +55,11 @@ const Index = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.2 }}
             >
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Campus Payments Made 
-                <span className="block text-accent-foreground">Simple & Secure</span>
+              <h1 className="text-3xl md:text-5xl font-bold mb-6">
+                CamPay 
+                <h2 className="block text-accent-foreground">Campus Payments made Simple & Secure</h2>
               </h1>
+              
               <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90">
                 Pay for tuition, books, meals, and events with zero fraud risk. 
                 Designed specifically for students, by students.
